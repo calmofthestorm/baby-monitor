@@ -1,0 +1,1 @@
+while [ 1 ]; do cat pre.html > output/index.html ; date >> output/index.html ; cat post.html >> output/index.html ; rsync output/baby.jpg output/index.html output/baby.ogg titanic.caltech.edu:public_html/baby/ ; sleep 15s ; done
